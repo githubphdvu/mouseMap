@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MousePosition-based BackgroundColorChange</title>
+</head>
+<body>
+  <h3>6.3.7.MouseMap project:MousePosition-based BackgroundColorChange</h3>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>MousePosition-based BackgroundColorChange</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      transition: background-color 0.3s ease-in-out;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      document.getElementById("1").textContent="Viewport width is:"+window.innerWidth+"px, Viewport height is:"+window.innerHeight+"px"
+    }
+  </script>
+</head>
+<body onmousemove="changeColor(event)">
+  <div id="1"></div>
+  <h3>6.3.7.MouseMap challenge:MousePosition-based BackgroundColorChange</h3>
+  <script>
+    function changeColor(event) {
+      const r = event.clientX / window.innerWidth * 255
+      const g = event.clientY / window.innerHeight* 255
+      const b = (r + g) / 2
+      document.body.style.backgroundColor = `rgb(${r},${g},${b})`
+    }
+  </script>
+</body>
+</html> -->
